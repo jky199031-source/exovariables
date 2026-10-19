@@ -22,13 +22,14 @@ mot = "Jacky"
 mot1 = "Léognan"
 mot2 = "36 ans"
 
-print ("Je suis", mot, "j'habite à", mot1, "et j'ai", mot2)
+print (f"Je suis {mot}, j'habite à {mot1}, et j'ai {mot2}")
 
 # exo2
 
-baguette = "1.20"
-croissant = "1.80"
-print("La baguette vaut", baguette, "et le croissant vaut", croissant, )
+baguette = 1.20
+croissant = 1.80
+total = baguette + croissant
+print(f"La baguette vaut {baguette}, et le croissant vaut {croissant}, total est de {total} euros")
 
 # Exo 3
 point = 10
@@ -39,3 +40,17 @@ point = point + 5
 print ("deuxième tour", point)
 point = point // 2
 print ("dernier tour", point)
+
+
+txt = "votre nombre de point est de:"
+scores = 10
+print(txt, scores)
+# scores = scores - 1
+scores -= 1
+print(txt, scores)
+# scores = scores + 5
+scores += 5
+print(txt, scores)
+# scores = scores / 2
+scores /= 2
+print(txt, scores)
